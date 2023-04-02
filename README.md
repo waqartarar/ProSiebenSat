@@ -1,4 +1,4 @@
-# Next.js Graphql apollo server starter 
+# Advanced Next.js Graphql apollo server starter 
 
 Next.js Graphql apollo server starter , with merge schema , combine resolvers generate type in fast and simple way
 
