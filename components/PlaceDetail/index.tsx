@@ -1,5 +1,7 @@
 import React from 'react';
 import Review from '../Review';
+//TODO: Add slides for all images
+//TODO: Add font suited for design
 
 const PlaceDetails = ({ place } : any) => {
   return (
@@ -26,6 +28,7 @@ const PlaceDetails = ({ place } : any) => {
     </div>
   );
 };
+//TODO: ADD emotion/ styled component lib with separate files
 
 const styles = {
  wrapper: {

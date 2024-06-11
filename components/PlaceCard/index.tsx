@@ -7,6 +7,11 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { PlaceCardProps } from './types';
 
+//TODO: Create Storyboard for each component
+//TODO: Add tests for coomponents - unit, intergration test
+//TODO: ADD Theme for site 
+//TODO: Add multiple imaes in the card
+
 const PlaceCard: React.FC<{ place: PlaceCardProps }> = ({ place }) => {
   return (
     <Link href={`/places/${place.id}`}>

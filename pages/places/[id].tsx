@@ -1,4 +1,3 @@
-// pages/places/[id].tsx
 import { GetStaticPaths, GetStaticProps } from 'next';
 import { PlaceCardProps } from '../../components/PlaceCard/types';
 import client from '../../lib/apolloClient';
@@ -17,6 +16,8 @@ const PlacePage: React.FC<PlaceProps> = ({ place }) => {
     </div>
   );
 };
+
+//TODO: ADD Limit for no. of pages prerendered , for large set
 
 export const getStaticPaths: GetStaticPaths = async () => {
   const { data } = await client.query({
