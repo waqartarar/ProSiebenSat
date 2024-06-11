@@ -36,7 +36,7 @@ export type MutationAddUserArgs = {
 
 export type Place = {
   __typename?: 'Place';
-  desciption?: Maybe<Scalars['String']>;
+  description?: Maybe<Scalars['String']>;
   id?: Maybe<Scalars['ID']>;
   mainPhoto?: Maybe<Scalars['String']>;
   owner?: Maybe<User>;
@@ -87,7 +87,7 @@ export type User = {
 };
 
 export type InputPlaceType = {
-  desciption?: InputMaybe<Scalars['String']>;
+  description?: InputMaybe<Scalars['String']>;
   mainPhoto?: InputMaybe<Scalars['String']>;
   photos?: InputMaybe<Array<InputMaybe<Scalars['String']>>>;
   priceByNight?: InputMaybe<Scalars['Float']>;

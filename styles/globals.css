@@ -14,3 +14,18 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.place-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px 40px;
+}
+
+.place-list > * {
+  flex: 1 1 calc(33.333% - 16px); /* Adjust the percentage to fit your layout */
+  margin: 8px;
+  box-sizing: border-box; /* Ensures padding and border are included in the total width and height */
+  display: flex;
+  flex-direction: column;
+}
+

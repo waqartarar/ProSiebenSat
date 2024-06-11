@@ -1,7 +1,7 @@
 export default `type Place {
   id: ID
   owner: User
-  desciption: String
+  description: String
   mainPhoto: String
   photos: [String]
   priceByNight: Float
@@ -10,7 +10,7 @@ export default `type Place {
 
 input inputPlaceType {
   type: String
-  desciption: String
+  description: String
   mainPhoto: String
   photos: [String]
   priceByNight: Float

@@ -5,10 +5,12 @@ import * as schema from '@/graphql/generated/schemaType';
 
 const Query = {
   placeList: (parent: any, args: any, ctx: any): schema.Query['placeList'] => {
+    console.log('ddd');
     return places;
   },
 
   place: (parent: any, args: any, ctx: any) => {
+    console.log('hhh');
     return places.find((x) => x.id == args.id);
   },
 };
